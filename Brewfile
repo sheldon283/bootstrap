@@ -8,6 +8,10 @@ brew "node"
 brew "python@3.11"
 brew "yarn"
 brew "oven-sh/bun/bun"
+brew 'mas'
+
+mas 'Slack', id: 803453959
+mas 'Xcode', id: 497799835
 
 vscode "dbaeumer.vscode-eslint"
 vscode "dracula-theme.theme-dracula"
